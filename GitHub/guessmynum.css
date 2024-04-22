@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-1 {
+  border: 2px solid black;
+  width: 50vw;
+  height: 60vh;
+  background-color: #00a9ff;
+  text-align: center;
+  margin: 8em 20em;
+  position: relative;
+}
+.again-btn {
+  position: absolute;
+  left: 100px;
+  margin: 0.5em -5.5em;
+  font-size: 17px;
+  border-radius: 5px;
+  color: #053b50;
+  padding: 0.5em 0.5em;
+}
+.main-1 p {
+  position: absolute;
+  right: 100px;
+  margin: 0.5em -4.7em;
+  font-size: 20px;
+  color: #053b50;
+}
+.main-1 h1 {
+  margin: 2em 0;
+  font-size: 35px;
+  font-weight: 800;
+  color: #053b50;
+}
+.main-1 h3 {
+  margin: 0 25em;
+  padding: 0.5em 0.5em;
+}
+.box-2 {
+  position: absolute;
+  left: 100px;
+  margin: -2em -5em;
+  font-size: 19px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.Check-btn {
+  position: absolute;
+  left: 100px;
+  margin: 0 5em;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 0.5em 0.5em;
+}
+#number {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  margin: -3em 20em;
+  text-align: center;
+  align-items: center;
+}
+#number p {
+  position: absolute;
+  font-size: 40px;
+  text-decoration: solid;
+  margin: 0.1em -2em;
+}
+.message {
+  position: absolute;
+  margin: -1.5em 18em;
+  /* border: 2px solid black; */
+  width: 200px;
+}
+
+button {
+  cursor: pointer;
+}
